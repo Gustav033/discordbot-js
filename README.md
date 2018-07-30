@@ -24,4 +24,4 @@ Você deverá ir nas **configurações** de seu **discord**, depois acessar a ab
 
 # Como iniciar o bot?
 
-Primeiramente, você precisará **baixar** o [node.js](https://nodejs.org/) `versão recomendara`, após instalado, reinicie seu computador e depois execute o arquivo `continue.bat`, ele instalará todos os modulos precisos para seu bot poder ser ligado.
+Primeiramente, você precisará **baixar** o __[node.js](https://nodejs.org/)__ `versão recomendada`, após instalado, reinicie seu computador e depois execute o arquivo `continue.bat`, ele instalará todos os modulos precisos para seu bot poder ser ligado.
