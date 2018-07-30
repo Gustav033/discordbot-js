@@ -28,7 +28,7 @@ Primeiramente, você precisará **baixar** o __[node.js](https://nodejs.org/)__ 
 
 # Como troco o jogando do bot?
 
-Acesse o arquivo `index.js` e procure por `var jogando = `${client.user.username} - ${client.guilds.size} servidores``, basta alterar a mensagem escrita depois do `=`.
+Acesse o arquivo `index.js` e procure por **var jogando = `${client.user.username} - ${client.guilds.size} servidores`**, basta alterar a mensagem escrita depois do `=`.
 
 # Como criar novos comandos?
 
