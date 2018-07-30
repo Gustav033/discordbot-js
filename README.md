@@ -21,3 +21,7 @@ Você deverá ir na aba **bot** ao lado e clicar em `Click to Reveal Token` ao l
 # Como adquiro meu id?
 
 Você deverá ir nas **configurações** de seu **discord**, depois acessar a aba **aparencia** e ativar o **Modo desenvolvedor**, após isso feche as configurações, **clique** com o botão **direito** do mouse em você na lista de **usuários** do servidor ou em algum **chat** e clique **Copiar ID**.
+
+# Como iniciar o bot?
+
+Primeiramente, você precisará **baixar** o [node.js](https://nodejs.org/) `versão recomendara`, após instalado, reinicie seu computador e depois execute o arquivo `continue.bat`, ele instalará todos os modulos precisos para seu bot poder ser ligado.
