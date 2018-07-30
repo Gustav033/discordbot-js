@@ -28,7 +28,7 @@ Primeiramente, você precisará **baixar** o __[node.js](https://nodejs.org/)__ 
 
 # Como adiciono meu bot ao servidor?
 
-Você pode adquirir o convite acessando **[Discord Permissions Calculator](https://discordapi.com/permissions.html#2146958591)**, configure as permissões desejadas, coloque o `client id` de seu bot abaixo e acesse o link dado pelo site.
+💬 Você pode adquirir o convite acessando **[Discord Permissions Calculator](https://discordapi.com/permissions.html#2146958591)**, configure as permissões desejadas, coloque o `client id` de seu bot abaixo e acesse o link dado pelo site.
 
 # Como troco o jogando do bot?
 
