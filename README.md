@@ -17,3 +17,7 @@ DONO | Você colocará seu id
 # Como consigo o token do bot?
 
 Você deverá ir na aba **bot** ao lado e clicar em `Click to Reveal Token` ao lado da foto.<h6>⚠**AVISO:** Não divulgue seu **token** à nenhuma pessoa, ele é usado para o **login** na conta do bot, ou seja, poderão fazer **tudo** que quiserem no bot, caso isso ocorra você pode **trocar** o token clicando no botão `Regenerate` abaixo do token.
+
+# Como adquiro meu id?
+
+Você deverá ir nas **configurações** de seu **discord**, depois acessar a aba **aparencia** e ativar o **Modo desenvolvedor**, após isso feche as configurações, **clique** com o botão **direito** do mouse em você na lista de **usuários** do servidor ou em algum **chat** e clique **Copiar ID**.
