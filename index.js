@@ -22,7 +22,9 @@ client.on("ready", () => {
     var jogando = `${client.user.username} - ${client.guilds.size} servidores`
     console.log("Conectado!!")
     console.log(`Servidores(${client.guilds.size}):\n${client.guilds.map(servidor => servidor.name).join(", ")}`)
+    setInterval(() => {
     client.user.setGame(jogando);
+    }, 1 * 60 * 1000)
 
 })
 
@@ -33,7 +35,7 @@ client.on("message", (message) => {
     if (message.content.startsWith(!prefix)) return;
 
     let command = message.content.split(" ")[0];
-    command = command.slice(prefixo.length);
+    command = command.slice(prefix.length);
 
     let args = message.content.split(" ").slice(1);
 
