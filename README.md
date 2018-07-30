@@ -26,6 +26,10 @@ Você deverá ir nas **configurações** de seu **discord**, depois acessar a ab
 
 Primeiramente, você precisará **baixar** o __[node.js](https://nodejs.org/)__ `versão recomendada`, após instalado, reinicie seu computador e depois execute o arquivo `continue.bat`, ele instalará todos os modulos precisos para seu bot poder ser ligado, após instalado, será criado um arquivo chamado `terminal.bat`, ele será utilizado para ligar seu bot, basta **abri-lo** e digitar o seguinte comando: `node .`, após isso poderá deletar o `continue.bat`.
 
+# Como troco o jogando do bot?
+
+Acesse o arquivo `index.js` e procure por `var jogando = `${client.user.username} - ${client.guilds.size} servidores`, basta alterar a mensagem escrita depois do `=`.`
+
 # Como criar novos comandos?
 
 👾 Você apenas precisa criar um arquivo na pasta comandos: `NomeDoComando.js`, dentro deste arquivo você colocará o código do comando,  para editar o arquivo, recomendo usar [Visual Studio Code](https://code.visualstudio.com/), existem alguns comandos de **exemplo** na pasta. Se você tiver dúvidas poderá **consultar** algumas **comunidades** de programação no discord: **[LabNegro](https://discord.gg/XzHdjaD)**, **[Vespertine Developers](https://discord.gg/KUnHcWQ)** etc...
