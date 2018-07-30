@@ -8,10 +8,11 @@
 
 Você pode alterar as opções do bot acessando o arquivo: `config.json`
 
-First Header | Second Header
+PARâMETRO | RESULTADO
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+TOKEN | Token de seu bot
+PREFIX | Prefixo desejado para o bot
+DONO | Você colocará seu id
 
 # Como consigo o token do bot?
 
