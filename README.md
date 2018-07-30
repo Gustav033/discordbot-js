@@ -1,6 +1,6 @@
 # Discord Bot - Javascript
 
-###### 📡 Simples bot para discord feito em `javascript` por `DMVMarcio` na lib [discord.js](https://discord.js.org/#/docs).
+###### 📡 Simples bot para discord feito em `javascript` por @DMVMarcio na lib [discord.js](https://discord.js.org/#/docs).
 
 # Como criar um bot?
 
@@ -8,7 +8,7 @@
 
 Você pode alterar as opções do bot acessando o arquivo: `config.json`
 
-PARâMETRO | RESULTADO
+PARÂMETRO | RESULTADO
 ------------ | -------------
 TOKEN | Token de seu bot
 PREFIX | Prefixo desejado para o bot
