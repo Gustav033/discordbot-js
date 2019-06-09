@@ -18,12 +18,11 @@ var dono = config.dono
 client.login(token)
 
 client.on("ready", () => {
-
-    var jogando = `${client.user.username} - ${client.guilds.size} servidores`
+ 
     console.log("Conectado!!")
     console.log(`Servidores(${client.guilds.size}):\n${client.guilds.map(servidor => servidor.name).join(", ")}`)
     setInterval(() => {
-    client.user.setGame(jogando);
+        client.user.setPresence({ game: { name: `${client.user.username} - ${client.guilds.size} servidores`, type: 0 } });
     }, 1 * 60 * 1000)
 
 })
