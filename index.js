@@ -1,19 +1,19 @@
 console.log("Conectando...")
-const Discord = require('discord.js');
-const client = new Discord.Client({
-    autoReconnect: true,
-    messageCacheMaxSize: 2024,
-    fetchAllMembers: true,
-    disabledEvents: ['typingStart', 'typingStop', 'guildMemberSpeaking'],
-    messageCacheLifetime: 1680,
-    disableEveryone: true,
-    messageSweepInterval: 1680
-});
-const config = require("./config.json")
+const Discord = require('discord.js'),
+    client = new Discord.Client({
+        autoReconnect: true,
+        messageCacheMaxSize: 2024,
+        fetchAllMembers: true,
+        disabledEvents: ['typingStart', 'typingStop', 'guildMemberSpeaking'],
+        messageCacheLifetime: 1680,
+        disableEveryone: true,
+        messageSweepInterval: 1680
+    });
+    config = require("./config.json"),
+    token = config.token;
 
-var token = config.token
-var prefix = config.prefix
-var dono = config.dono
+let prefix = config.prefix,
+    dono = config.dono;
 
 client.login(token)
 
@@ -40,7 +40,7 @@ client.on("message", (message) => {
 
     try {
         let commandFile = require(`./comandos/${command}.js`);
-        commandFile.run(client, message, args);
+        commandFile.run({Discord, client, message, args});
     } catch (err) {
 
         if (err.code == "MODULE_NOT_FOUND") return;
